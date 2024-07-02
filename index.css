@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #0a0a23;
+    font-family: Century Gothic, sans-serif;
+    background-color: #76ABAE;
     color: #ffffff;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .freecodecamp-logo {
-    height: 30px;
+    height: 35px;
     margin-bottom: 20px;
 }
 
@@ -34,6 +34,8 @@ body {
     padding: 10px 0;
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 .palindrome-div {
@@ -47,12 +49,13 @@ body {
     padding: 20px;
     margin: 10px 0;
     background-color: white;
-    box-shadow: 0 6px 6px #002ead;
+    box-shadow: 0 6px 6px #222831;
 }
 
 label {
-    color: #0a0a23;
+    color: black;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .palindrome-input {
@@ -62,7 +65,7 @@ label {
     font-size: 1.2rem;
     margin: 10px;
     border: none;
-    border-bottom: 2px solid #5a01a7;
+    border-bottom: 2px solid #222831;
 }
 
 .palindrome-btn {
@@ -70,8 +73,9 @@ label {
     border: none;
     padding: 10px;
     border-radius: 15px;
-    background-color: #5a01a7;
+    background-color: #222831;
     color: #fff;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -83,10 +87,10 @@ label {
 }
 
 .palindrome-definition-div {
-    width: min(100vw, 450px);
-    font-size: 1.3rem;
+    width: 450px;
+    font-size: 1.2rem;
     min-height: 140px;
-    background-color: #00471b;
+    background-color: #222831;
     margin-top: 20px;
     padding: 20px;
     border-radius: 20px;
@@ -100,3 +104,4 @@ label {
     text-align: center;
 }
 
+/*RESPONSIVE*/
